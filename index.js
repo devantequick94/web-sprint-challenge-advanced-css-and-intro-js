@@ -235,7 +235,6 @@ function getArtistByIndex(id, name) {
  "the artists at index `${id}` is `${name}`"  
 }
 
-console.log(artists(getArtistByIndex));
 
 
 
@@ -248,9 +247,18 @@ Example born in 1901 and died in 1959 - included -- born in 1889 and died in 192
 If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 // Hint - Look up the .split() method
 
-function get20s(/*Your Code Here*/) {
-  /*Your Code Here*/
+function get20s(array) {
+
+array = (years.split)
+return years.split(1900,2000)
+
+ console.log(get20s)
+
+ 
+
 }
+
+console.log(get20s)
 
 
 
@@ -263,9 +271,13 @@ Use removeArtist to do the following:
 
 For example, if removeArtist is invoked with the artists array and the number 0, it will remove Amedeo Modigliani from our dataset and return the number 19. */
 
-function removeArtist(/*Your Code Here*/) {
-  /*Your Code Here*/
+function removeArtist(array, index) {
+ 
+  array.name.splice(index)
+
+  return array.length
 }
+console.log(removeArtist);
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -297,7 +309,7 @@ Use lotsOfArt to do the following:
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
-function lotsOfArt(/*Your Code Here*/) {
+function lotsOfArt(array, newArray) {
   /*Your Code Here*/
 }
 
